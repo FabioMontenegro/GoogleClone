@@ -1,0 +1,15 @@
+.cabecera{
+    
+    text-align: end;
+}
+.menu{
+    display: inline-flexbox;
+    font-size: 18px;
+}
+
+.perfil{
+    border-radius: 50px;
+    border-style: solid 1px;
+    border-color: black;
+    height: 40px;
+}

@@ -1,6 +1,5 @@
 .cabecera{
-    
-    text-align: end;
+    display: flex;    
 }
 .menu{
     display: inline-flexbox;

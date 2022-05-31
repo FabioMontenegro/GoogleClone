@@ -1,10 +1,54 @@
-.cabecera{
-    display: flex;    
+/* sirve  para aplicar un estilo a todo el codigo*/
+*{
+    margin: 0;
+    padding: 0;
 }
-.menu{
-    display: inline-flexbox;
-    font-size: 18px;
+
+a{
+    text-decoration: none;
+    cursor: pointer; 
 }
+
+body{
+    font-size: 15px;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    height: inherit;
+}
+
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a{
+    margin-right: 10px;
+    color: #000;
+
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url('/img/icono.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
 
 .perfil{
     border-radius: 50px;

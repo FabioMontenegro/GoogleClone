@@ -53,8 +53,8 @@ nav .nav-right-section .menu-icon {
 
 nav .nav-right-section img{
     border-radius: 50%;
-    margin-left: 10px;
-    height: 40px;
+    margin-left: 20px;
+    height: 30px;
 }
 
 main{
@@ -128,4 +128,60 @@ main .main-buttons{
 
 main .main-buttons div{
     display: inline-block;
+}
+
+main .main-buttons button{
+    height: 36px;
+    background-color: #303134;
+    border-radius: 4px;
+    border: 1px solid #303134;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    color: #e8eaed;
+}
+
+main .main-buttons button:hover{
+    border: 1px solid #5f6368;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #171717;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;    /* para agregar 2 fracciones(columnas) */
+    align-items: center;
+    font-size: 13px;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+
+    
+
+footer .footer-right{
+    justify-self: right;
+}
+
+
+footer ul li a{
+    margin-left: 15px;
+    color: #999da2;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+footer a:hover, a:active {
+    text-decoration: underline;
 }
